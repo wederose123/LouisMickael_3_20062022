@@ -1,0 +1,49 @@
+@keyframes valid_click {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes click {
+
+    from {
+        margin-left: 90px;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes charg {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
+@keyframes defil {
+    0% {
+        opacity: 0;
+        transform: translatY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatY(0%);
+    }
+}

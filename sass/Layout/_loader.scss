@@ -1,0 +1,29 @@
+/*.big-sec {
+    background-color: #222;
+}*/
+
+.loader-container {
+    border-radius: 5px;
+    background-color: white;
+    opacity: .6;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    animation: charg 1000ms 3000ms forwards;
+}
+
+.loader {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 7px solid transparent;
+    border-top-color: black;
+    animation: spin 2000ms linear infinite;
+
+}

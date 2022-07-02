@@ -1,0 +1,66 @@
+/* --format deskot --*/
+
+
+.btn--comd {
+    border-radius: 50px;
+    color: white;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 40%;
+    font-size: 20px;
+    box-shadow: 4px 3px 10px gray;
+    background: linear-gradient(to right, darken(#FF79DA, 25%) 0%, lighten(#9356DC, 10%) 100%);
+    cursor: pointer;
+}
+
+
+/* --format deskot --*/
+
+/* --format tablette --*/
+
+@media screen and (max-width:992px) {
+    .btn--comd {
+        border-radius: 50px;
+        color: white;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-right: 70px;
+        padding-left: 70px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        margin-left: 37%;
+        font-size: 18px;
+        box-shadow: 4px 3px 10px gray;
+        background: linear-gradient(to right, darken(#FF79DA, 25%) 0%, lighten(#9356DC, 10%) 100%);
+    }
+}
+
+
+/* --format tablette --*/
+
+/* --format mobile --*/
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .btn--comd {
+        border-radius: 50px;
+        color: white;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        margin-left: 30%;
+        font-size: 18px;
+        box-shadow: 4px 3px 10px gray;
+        background: linear-gradient(to right, darken(#FF79DA, 25%) 0%, lighten(#9356DC, 10%) 100%);
+    }
+}

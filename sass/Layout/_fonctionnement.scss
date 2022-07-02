@@ -1,0 +1,29 @@
+/* --format deskot --*/
+
+.fonctio {
+    counter-reset: nomb;
+
+    &__h2 {
+        font-size: 30px;
+        padding-left: 40px;
+        padding-bottom: 20px;
+        padding-top: 45px
+    }
+
+    .fonctio__col {
+        position: relative;
+        @include fonctio-btn;
+
+        .fonctio__num {
+            overflow-x: hidden;
+            @include num_fonctio_desk;
+        }
+
+        .fonctio--ico {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
+}
+
+/* --format deskot --*/

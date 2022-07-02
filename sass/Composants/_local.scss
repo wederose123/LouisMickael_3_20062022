@@ -1,0 +1,93 @@
+/* --format deskot --*/
+
+.premier {
+    background-color: #F2F2F2;
+    height: 55px;
+    padding-top: 20px;
+    padding-left: 18px;
+}
+
+.map__haut {
+    display: flex;
+
+    .map__haut--ico {
+        font-size: 20px;
+        padding-right: 15px;
+        margin-left: 42%;
+    }
+
+    &--local {
+        background-color: #F2F2F2;
+        border: none;
+        outline: none;
+        color: black;
+        font-size: 20px;
+        padding-left: 5px;
+    }
+}
+
+/* --format deskot --*/
+
+
+/* --format tablette --*/
+
+@media screen and (max-width:992px) {
+    .premier {
+        background-color: #F2F2F2;
+        height: 55px;
+        padding-top: 20px;
+        padding-left: 18px;
+    }
+
+    .map__haut {
+        display: flex;
+
+        .map__haut--ico {
+            font-size: 20px;
+            padding-right: 15px;
+            margin-left: 36%;
+        }
+
+        &--local {
+            background-color: #F2F2F2;
+            border: none;
+            outline: none;
+            color: black;
+            font-size: 20px;
+            padding-left: 5px;
+        }
+    }
+}
+
+/* --format tablette --*/
+
+/* --format mobile --*/
+
+
+@media screen and (max-width:768px) {
+    .premier {
+        background-color: #F2F2F2;
+        height: 55px;
+        padding-top: 20px;
+        padding-left: 18px;
+    }
+
+    .map__haut {
+        display: flex;
+
+        .map__haut--ico {
+            font-size: 20px;
+            padding-right: 15px;
+            margin-left: 34%;
+        }
+
+        &--local {
+            background-color: #F2F2F2;
+            border: none;
+            outline: none;
+            color: black;
+            font-size: 20px;
+            padding-left: 5px;
+        }
+    }
+}

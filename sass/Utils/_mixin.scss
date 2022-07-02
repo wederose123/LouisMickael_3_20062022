@@ -1,0 +1,61 @@
+@mixin fonctio-btn {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(248, 248, 248);
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    box-shadow: 4px 3px 10px gray;
+    overflow: visible;
+
+    &:hover {
+        background-color: lighten(#9356DC, 36%);
+    }
+
+    &:hover .fonctio--ico {
+        color: #9356DC;
+    }
+}
+
+
+@mixin num_fonctio_desk {
+
+    background: #9356dc;
+    color: white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 16px;
+    left: -18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin resto-gr {
+    margin: 10px;
+    border-radius: 25px;
+    width: 376px;
+    box-shadow: 6px 0px 0px transparent;
+    width: 75%;
+    margin: auto;
+}
+
+@mixin a-la-compos {
+    display: flex;
+    border-radius: 15px;
+    background-color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-shadow: 4px 4px 10px #aaa;
+    margin: 10px;
+}

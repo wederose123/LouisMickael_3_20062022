@@ -1,0 +1,195 @@
+/* --format deskot --*/
+
+footer {
+    color: white;
+    background-color: #353535;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+    .footer--titr {
+        font-size: 30px;
+        margin-bottom: 30px;
+        padding-left: 590px;
+        font-family: 'Shrikhand', cursive;
+    }
+
+
+    .footer--txt__icon--1 {
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        padding-bottom: 8px;
+        font-weight: bold;
+    }
+
+    .footer--txt__icon--2 {
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+
+    p {
+        padding-left: 13px;
+    }
+
+    .footer--lien {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+}
+
+footer a {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.big--footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer--two {
+    display: flex;
+    flex-direction: column;
+}
+
+/* --format deskot --*/
+
+
+/* --format tablette --*/
+
+@media screen and (max-width:992px) {
+    footer {
+        color: white;
+        background-color: #353535;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 20px;
+
+        .footer--titr {
+            font-size: 27px;
+            margin-bottom: 30px;
+            padding-left: 360px;
+            font-family: 'Shrikhand', cursive;
+        }
+
+
+        .footer--txt__icon--1 {
+            display: flex;
+            flex-direction: row;
+            font-size: 20px;
+            padding-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .footer--txt__icon--2 {
+            display: flex;
+            flex-direction: row;
+            font-size: 20px;
+            padding-top: 8px;
+            padding-bottom: 10px;
+            font-weight: bold;
+        }
+
+        p {
+            padding-left: 13px;
+        }
+
+        .footer--lien {
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+    }
+
+    footer a {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .big--footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer--two {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* --format tablette --*/
+
+/* --format mobile --*/
+
+@media screen and (max-width:768px) {
+
+    footer {
+        color: white;
+        background-color: #353535;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 20px;
+
+        .footer--titr {
+            font-size: 20px;
+            margin-bottom: 0px;
+            padding-left: 0px;
+            font-family: 'Shrikhand', cursive;
+        }
+
+
+        .footer--txt__icon--1 {
+            display: flex;
+            flex-direction: row;
+            font-size: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .footer--txt__icon--2 {
+            display: flex;
+            flex-direction: row;
+            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 13px;
+            font-weight: bold;
+        }
+
+        p {
+            padding-left: 13px;
+        }
+
+        .footer--lien {
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+    }
+
+    footer a {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .big--footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .footer--two {
+        display: flex;
+        flex-direction: column;
+    }
+}

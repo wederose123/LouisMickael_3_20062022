@@ -1,0 +1,19 @@
+@import "./Utils/variables";
+@import "./Utils/mixin";
+@import "./Utils/keyframes";
+@import "./Layout/btncommand";
+@import "./Layout/footer";
+@import "./Layout/header";
+@import "./Layout/menu";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}

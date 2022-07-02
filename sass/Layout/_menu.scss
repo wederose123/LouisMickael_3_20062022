@@ -1,0 +1,481 @@
+/* --format deskot --*/
+
+
+
+
+.a-la--img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.img-arr {
+    width: 100%;
+}
+
+.second-a-la {
+    background-color: #F8F8F8;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: 350px;
+    position: relative;
+}
+
+.a-la--h1 {
+    font-size: 33px;
+    font-family: 'Shrikhand', cursive;
+}
+
+h4 {
+    padding: 5px 0 5px;
+    text-overflow: ellipsis;
+}
+
+.lik--menu {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-around;
+
+    :hover .coeu {
+        opacity: 1;
+        transform: scale(1.3);
+        transition: all 200ms ease-in-out;
+        overflow: hidden;
+    }
+}
+
+
+.trans-ico {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.fa-regular {
+    font-size: 38px;
+    padding-right: 15px;
+    overflow: hidden;
+
+    &:hover {
+        transform: scale(0);
+        transition: transform 100ms;
+        overflow: hidden;
+    }
+}
+
+.coeu {
+    color: transparent;
+    background-image: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
+    -webkit-background-clip: text;
+    font-size: 31px;
+    position: absolute;
+    left: 0px;
+    overflow: hidden;
+    padding: 4px;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+}
+
+
+
+
+.a-la--tit {
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 23px;
+    margin-bottom: 10px;
+
+    p {
+        border-bottom: 4px solid #99E2D0;
+        padding-bottom: 10px;
+        overflow: visible;
+        width: 70px;
+        margin: 0 15px;
+        color: black;
+    }
+}
+
+
+.men_main {
+    padding: 0 15px;
+
+
+    @for $i from 1 through 6 {
+        &:nth-child(#{$i}) {
+            animation-delay: 200ms * $i;
+        }
+    }
+
+    animation: defil 3000ms ease-in-out both;
+}
+
+.a-la--compo {
+
+
+
+    @include a-la-compos;
+    /*height: 70px;*/
+
+
+    .a-la--plat__g {
+        padding-left: 10px;
+        text-overflow: ellipsis;
+    }
+
+    .a-la--plat__p {
+        font-size: 20px;
+        text-overflow: ellipsis;
+    }
+
+    &:hover strong {
+        padding-right: 7px;
+        transition: all 1s;
+    }
+
+    &:hover .fa-circle-check {
+        animation: valid_click 1010ms;
+    }
+
+    &:hover .ico {
+        margin-right: 0px;
+    }
+}
+
+.ico {
+    font-size: 28px;
+    padding: 26px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #99E2D0;
+    margin-right: -90px;
+    transition: all 1010ms;
+}
+
+
+
+.fa-circle-check {
+    color: white;
+}
+
+h4 {
+    font-size: 23px;
+}
+
+/*.a-la--plat__g {
+    display: flex;
+    font-size: 25px;
+
+    .__p {
+        font-size: 25px;
+    }
+}*/
+
+strong {
+    font-size: 20px;
+}
+
+.price {
+    margin-left: auto;
+    padding: 17px 35px;
+    display: flex;
+    align-self: flex-end;
+}
+
+/*.ico {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border: 1px solid black;
+    padding: 19px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #99E2D0;
+    color: white;
+    transform: translateX(70px);
+    transition: transform 1000ms;
+}*/
+
+/* --format deskot --*/
+
+/* --format tablette --*/
+
+/*@media screen and (max-width:992px) {
+    .a-la--img {
+        width: 100%;
+        position: absolute;
+    }
+
+    .second-a-la {
+        background-color: rgb(248, 248, 248);
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        margin-top: 350px;
+        position: relative;
+    }
+
+    .a-la--h1 {
+        font-size: 33px;
+    }
+
+    .lik--menu {
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        justify-content: space-around;
+    }
+
+    span {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .fa-regular {
+        font-size: 35px;
+        padding-right: 15px;
+        overflow: hidden;
+
+        &:hover {
+            transform: scale(0);
+            transition: transform 100ms forwards;
+            overflow: hidden;
+        }
+
+        &:hover+.fa-solid {
+            transform: scale(1.1);
+            transition: transform 100ms forwards;
+            overflow: hidden;
+        }
+    }
+
+    .coeu {
+        color: #9356dc;
+        font-size: 31px;
+        position: absolute;
+        left: 0px;
+        overflow: hidden;
+        padding: 4px;
+        transform: scale(0);
+        transition: transform 100ms forwards;
+    }
+
+
+
+
+    .a-la--tit {
+        font-size: 25px;
+        padding: 10px;
+
+        p {
+            border-bottom: 4px solid #99E2D0;
+            overflow: visible;
+            width: 70px;
+            margin-left: 15px;
+        }
+    }
+
+    .a-la--compo {
+        @include a-la-compos;
+        height: 55px;
+
+        &:hover strong {
+            padding-right: 80px;
+        }
+
+        &:hover .fa-circle-check {
+            animation: valid_click 1000ms;
+        }
+
+        &:hover .ico {
+            margin-right: 0px;
+        }
+    }
+
+    .ico {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        padding: 29px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        background-color: #99E2D0;
+        margin-right: -90px;
+        transition: all 1s;
+    }
+
+    .fa-circle-check {
+        color: white;
+    }
+
+    h4 {
+        font-size: 23px;
+    }
+
+    .a-la--plat__g {
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+
+        .__p {
+            font-size: 20px;
+        }
+    }
+
+    strong {
+        font-size: 20px;
+    }
+
+    /*.ico {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        border: 1px solid black;
+        padding: 19px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        background-color: #99E2D0;
+        color: white;
+        transform: translateX(70px);
+        transition: transform 1000ms;
+    }*/
+
+/*--------a des commenter imperativement-----.line {
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+}*/
+
+
+/* --format tablette --*/
+
+
+/*@media screen and (max-width:768px) {
+
+    .a-la--img {
+        width: 100%;
+        position: absolute;
+    }
+
+    .second-a-la {
+        background-color: rgb(248, 248, 248);
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        margin-top: 350px;
+        position: relative;
+    }
+
+    .a-la--h1 {
+        font-size: 33px;
+    }
+
+    .lik--menu {
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        justify-content: space-around;
+    }
+
+    span {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .fa-regular {
+        font-size: 35px;
+        padding-right: 15px;
+        overflow: hidden;
+
+        &:hover {
+            transform: scale(0);
+            transition: transform 100ms forwards;
+            overflow: hidden;
+        }
+
+        &:hover+.fa-solid {
+            transform: scale(1.1);
+            transition: transform 100ms forwards;
+            overflow: hidden;
+        }
+    }
+
+    .coeu {
+        color: #9356dc;
+        font-size: 31px;
+        position: absolute;
+        left: 0px;
+        overflow: hidden;
+        padding: 4px;
+        transform: scale(0);
+        transition: transform 100ms forwards;
+    }
+
+
+
+
+    .a-la--tit {
+        font-size: 25px;
+        padding: 10px;
+
+        p {
+            border-bottom: 4px solid #99E2D0;
+            overflow: visible;
+            width: 70px;
+            margin-left: 15px;
+        }
+    }
+
+    .a-la--compo {
+        @include a-la-compos;
+        height: 55px;
+
+        &:hover strong {
+            padding-right: 80px;
+        }
+
+        &:hover .fa-circle-check {
+            animation: valid_click 1000ms;
+        }
+
+        &:hover .ico {
+            margin-right: 0px;
+        }
+    }
+
+    .ico {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        padding: 29px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        background-color: #99E2D0;
+        margin-right: -90px;
+        transition: all 1s;
+    }
+
+    .fa-circle-check {
+        color: white;
+    }
+
+    h4 {
+        font-size: 23px;
+    }
+
+    .a-la--plat__g {
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+
+        .__p {
+            font-size: 20px;
+        }
+    }
+
+    strong {
+        font-size: 20px;
+    }
+
+
+}*/
